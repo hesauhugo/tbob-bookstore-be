@@ -12,3 +12,13 @@
     * The registration form is accessible on the home page.
     * The system validates the uniqueness of the e-mail address and the complexity of the password.
     * After registration, the user receives a confirmation e-mail.
+
+## Development Resources
+* VS Code
+  * .NET Install Tool
+  * Code Spell Checker
+* Git + GitHub
+
+## For Developers
+* Commit message patterns
+  * doc: used when a documentation was updated.
