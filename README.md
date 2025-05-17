@@ -18,7 +18,7 @@
   * .NET Install Tool
   * Code Spell Checker
 * Git + GitHub
-
+* Docker
 ## For Developers
 * Commit message patterns
   * doc: used when a documentation was updated.
