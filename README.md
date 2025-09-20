@@ -14,9 +14,13 @@
     * After registration, the user receives a confirmation e-mail.
 
 ## Development Resources
-* VS Code
+* VS Code Extensions
   * .NET Install Tool
   * Code Spell Checker
+  * Docker
+  * Dev Containers
+  * Container Tools
+   
 * Git + GitHub
 * Docker
 ## For Developers
