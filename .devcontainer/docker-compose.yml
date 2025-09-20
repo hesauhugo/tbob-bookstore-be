@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  bookstore:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "5055:8080"
+    volumes:
+      - ../..:/workspaces:cached
+    command: sleep infinity
+    depends_on:
+      - postgre-db
+    networks:
+      bookstore-networks:      
+
+
+  postgre-db:
+    image: postgres:14.3
+    restart: unless-stopped
+    volumes:
+      - postgres-data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_USER: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - "5434:5432"
+    networks:
+      bookstore-networks:
+
+volumes:
+  postgres-data:
+
+networks:
+  bookstore-networks:
+    driver: bridge

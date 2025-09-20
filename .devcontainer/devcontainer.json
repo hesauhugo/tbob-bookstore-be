@@ -1,0 +1,12 @@
+{
+    "name": "C# (.NET) and PostgreSQL",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "bookstore",
+    "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+    "forwardPorts": [5055,5434],
+    "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-dotnettools.csharp"
+    ]
+}
