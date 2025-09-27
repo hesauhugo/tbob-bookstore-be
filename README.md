@@ -20,7 +20,13 @@
   * Docker
   * Dev Containers
   * Container Tools
-   
+  * vscode-solution-explorer
+  * .NET Extension Pack
+  * C# Extensions
+  * C# Dev kit
+  * C#
+  * IntelliCode C#   
+  
 * Git + GitHub
 * Docker
 ## For Developers
