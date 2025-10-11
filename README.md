@@ -25,7 +25,7 @@
   * C# Extensions
   * C# Dev kit
   * C#
-  * IntelliCode C#   
+  * IntelliCode C#
   
 * Git + GitHub
 * Docker

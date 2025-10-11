@@ -12,6 +12,15 @@ public class User
         this.Psw = psw;
     }
 
+    public User(int id, string name)
+    {
+        this.Id = id;
+        this.Name = name;
+        this.Email = string.Empty;
+        this.ContactNumber = string.Empty;
+        this.Psw = string.Empty;
+    }
+
     public int Id { get; private set; }
     public string Name { get; private set; }
     public string Email { get; private set; }
